@@ -1,13 +1,6 @@
 # Componente Card de Zebra Ventures
 
-Este proyecto contiene el componente `Card` implementado en React con TypeScript, documentado con Storybook y compatible con temas claro y oscuro.
-
-## Estructura del Proyecto
-
-- `src/components/Card.tsx`: El componente React `Card`.
-- `src/components/Card.module.css`: Estilos CSS modularizados para el componente `Card`.
-- `src/styles/tokens.css`: Definición de los tokens de diseño (colores, espaciado, tipografía, etc.) para los temas claro y oscuro.
-- `src/components/Card.stories.tsx`: Historias de Storybook para el componente `Card`, mostrando sus diferentes estados y temas.
+Este proyecto contiene el componente `Card` y `Button` implementado en React con TypeScript, documentado con Storybook y compatible con temas claro y oscuro.
 
 ## Cómo Levantar el Proyecto
 
