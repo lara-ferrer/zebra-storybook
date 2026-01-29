@@ -1,0 +1,50 @@
+:root {
+  --button-font-family: 'Helvetica Neue', Arial, sans-serif;
+  --button-font-weight: 700;
+  --button-font-size: 1rem;
+  --button-transition-duration: 0.2s;
+  --button-padding-vertical: 0.75rem;
+  --button-padding-horizontal: 1.25rem;
+  --button-border-radius: 4px;
+
+  /* Light */
+  --button-light-color-default: #007bff;
+  --button-light-bg-hover: #edf6ff;
+
+  /* Dark */
+  --button-dark-color-default: #f8f9fa;
+  --button-dark-bg-default: #555;
+  --button-dark-bg-hover: #666;
+}
+
+.button {
+  font-family: var(--button-font-family);
+  font-weight: var(--button-font-weight);
+  border: 0;
+  cursor: pointer;
+  transition: all var(--button-transition-duration) ease-in-out;
+  font-size: var(--button-font-size);
+  padding: var(--button-padding-vertical) var(--button-padding-horizontal);
+  border-radius: var(--button-border-radius);
+}
+
+.buttonLightTheme {
+  color: var(--button-light-color-default);
+  background-color: transparent;
+}
+
+.buttonLightTheme:hover {
+  background-color: var(--button-light-bg-hover);
+  transition: all var(--button-transition-duration) ease-in-out;
+}
+
+.buttonDarkTheme {
+  color: var(--button-dark-color-default);
+  background-color: var(--button-dark-bg-default);
+}
+
+.buttonDarkTheme:hover {
+  background-color: var(--button-dark-bg-hover);
+  transition: all var(--button-transition-duration) ease-in-out;
+}
+

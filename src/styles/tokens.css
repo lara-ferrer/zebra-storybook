@@ -1,0 +1,78 @@
+/* src/styles/tokens.css */
+
+/* Colores */
+:root {
+  /* Light theme */
+  --color-primary: #007bff; /* Ejemplo de color primario */
+  --color-secondary: #6c757d; /* Ejemplo de color secundario */
+  --color-background-light: #ffffff;
+  --color-text-light: #333333;
+  --color-border-light: #e0e0e0;
+  --color-card-background-light: #f8f9fa;
+  --color-card-border-light: #e9ecef;
+  --color-status-success-background: #d4edda;
+  --color-status-success-text: #155724;
+  --color-status-info-background: #d1ecf1;
+  --color-status-info-text: #0c5460;
+  --color-text-muted-light: #6c757d;
+
+  /* Dark theme (valores temporales, se ajustarán después) */
+  --color-background-dark: #333333;
+  --color-text-dark: #f8f9fa;
+  --color-border-dark: #444444;
+  --color-card-background-dark: #495057;
+  --color-card-border-dark: #6c757d;
+  --color-text-muted-dark: #ced4da;
+
+  /* Espaciado */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+
+  /* Tipografía */
+  --font-family-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-weight-normal: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Border Radius */
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+}
+
+/* Tema oscuro */
+.dark-theme {
+  --color-background: var(--color-background-dark);
+  --color-text: var(--color-text-dark);
+  --color-border: var(--color-border-dark);
+  --color-card-background: var(--color-card-background-dark);
+  --color-card-border: var(--color-card-border-dark);
+  --color-text-muted: var(--color-text-muted-dark);
+}
+
+/* Tema claro */
+.light-theme {
+  --color-background: var(--color-background-light);
+  --color-text: var(--color-text-light);
+  --color-border: var(--color-border-light);
+  --color-card-background: var(--color-card-background-light);
+  --color-card-border: var(--color-card-border-light);
+  --color-text-muted: var(--color-text-muted-light);
+}
+
+/* Valores por defecto (light theme) */
+:root {
+  --color-background: var(--color-background-light);
+  --color-text: var(--color-text-light);
+  --color-border: var(--color-border-light);
+  --color-card-background: var(--color-card-background-light);
+  --color-card-border: var(--color-card-border-light);
+  --color-text-muted: var(--color-text-muted-light);
+}
+

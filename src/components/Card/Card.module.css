@@ -1,0 +1,54 @@
+:root {
+  --card-border-width: 1px;
+  --card-border-color: #cccccc;
+  --card-border-radius: 0.5rem;
+  --card-padding: 1rem;
+  
+  /* Header and title */
+  --card-header-margin-bottom: 1rem;
+  --card-title-font-family: 'Helvetica Neue', Arial, sans-serif;
+  --card-title-font-size: 16px;
+  --card-title-font-weight: 700;
+
+  /* Light */
+  --card-bg-light: #ffffff;
+  --card-border-color-light: hsl(0, 0%, 88%);
+  --card-color-light: #000000;
+
+  /* Dark */
+  --card-bg-dark: #1e1e1e;
+  --card-border-color-dark: #3a3a3a;
+  --card-color-dark: #ffffff;
+}
+
+.card {
+  border: var(--card-border-width) solid var(--card-border-color);
+  border-radius: var(--card-border-radius);
+  padding: var(--card-padding);
+}
+
+.cardLightTheme {
+  background-color: var(--card-bg-light);
+  border-color: var(--card-border-color-light);
+  color: var(--card-color-light);
+}
+
+.cardDarkTheme {
+  background-color: var(--card-bg-dark);
+  border-color: var(--card-border-color-dark);
+  color: var(--card-color-dark);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--card-header-margin-bottom);
+}
+
+.title {
+  font-family: var(--card-title-font-family);
+  font-size: var(--card-title-font-size);
+  font-weight: var(--card-title-font-weight);
+  margin: 0;
+}
